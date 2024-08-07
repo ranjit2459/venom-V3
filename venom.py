@@ -6,8 +6,8 @@ import asyncio
 
 API_TOKEN = '6726081706:AAELigLAuBnPqoodZVRpsl-jhDRZ8rLjbHU'
 ADMIN_ID = '1100346685'
-MAX_RESTARTS = 5
-RESTART_PERIOD = 60  # Seconds
+MAX_RESTARTS = 10
+RESTART_PERIOD = 360  # Seconds
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 bot = Bot(API_TOKEN)
